@@ -1,4 +1,5 @@
 #!/bin/bash
+# script to look up elements from database
 PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
 
 if [[ -z $1 ]]
